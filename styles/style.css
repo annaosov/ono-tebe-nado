@@ -43,13 +43,29 @@
     line-height: 135%;
 }
 
+.cover {
+    position: relative;
+    width: 1440px;
+    height: 757px;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    background-color: #000;
+    opacity: 60%;
+    width: inherit;
+    height: inherit;
+}
+
 .cover-img {
     height: 757px;
 }
 
 .cover-title {
     position: absolute;
-    top: 457px;
+    z-index: 2;
+    top: 163px;
     left: 50px;
     font-size: 100px;
     font-weight: 700;
@@ -84,7 +100,8 @@
 
 .cover-description {
     position: absolute;
-    top: 948px;
+    z-index: 2;
+    top: 655px;
     font-size: 22px;
     color: #fff;
     width: 1340px;
@@ -107,4 +124,60 @@
     padding: 12px 32px;
     margin-left: 53px;
     border: 1px solid #fff;
+}
+
+.lots {
+    width: 1340px;
+    margin: 180px auto 180px;
+}
+
+.lots-heading {
+    font-size: 40px;
+    margin: 0 auto 27px 40px;
+}
+
+.lots-card-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-link {
+    display: block;
+    height: 100%;
+}
+
+.card {
+    position: relative;
+    width: 430px;
+    height: 450px;
+}
+
+.card-content {
+    display: flex;
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit;
+    padding: 50px 40px 50px;
+    color: #fff;
+    z-index: 2;
+}
+
+.card-title {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.lots-look-more-link {
+    display: block;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 20px;
 }
