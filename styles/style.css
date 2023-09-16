@@ -181,3 +181,43 @@
     margin-left: 40px;
     font-size: 20px;
 }
+
+.about {
+    width: 1340px;
+    margin: 0 auto 180px;
+    display: grid;
+    grid-template-columns: 430px 2fr;
+    gap: 25px;
+}
+
+.about-column {
+    display: flex;
+    justify-content: center;
+}
+
+.about-logo {
+    width: 240px;
+    height: 240px;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-logo-image {
+    width: 148px;
+}
+
+.about-title {
+    margin-top: 103px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.about-text {
+    font-size: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
