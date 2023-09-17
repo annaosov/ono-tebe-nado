@@ -31,7 +31,7 @@
 }
 
 .address {
-    width: 240px;
+    max-width: 240px;
     font-style: normal;
     justify-self: right;
 }
@@ -43,7 +43,6 @@
 .cover {
     position: relative;
     width: 100%;
-    min-height: 757px;
 }
 
 .overlay {
@@ -59,6 +58,7 @@
     min-height: 757px;
     background-image: url(../images/cover.jpg);
     background-size: cover;
+    background-position: center;
     padding: 165px 50px 50px;
     display: flex;
     flex-direction: column;
@@ -163,7 +163,6 @@
 }
 
 .card {
-    min-height: 450px;
     position: relative;
     color: #fff;
 }
@@ -174,7 +173,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 450px;
+    min-height: 450px;
     padding: 50px 40px 50px;
 }
 
@@ -184,7 +183,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 450px;
+    min-height: 450px;
     padding: 50px 40px 50px;
 }
 
@@ -194,7 +193,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 450px;
+    min-height: 450px;
     padding: 50px 40px 50px;
 }
 
